@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/Mainmenu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Main menu" />
+
+        <item
+            android:id="@+id/Reset"
+            android:icon="@android:drawable/ic_menu_rotate"
+            android:title="Restart" />
+
+        <item
+            android:id="@+id/HighScore"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="High Score" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Challenge"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Challenge" />
+            <item
+                android:id="@+id/Exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
